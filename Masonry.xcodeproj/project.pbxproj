@@ -57,6 +57,8 @@
 		4473548E1B39F772004DACCB /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4473548C1B39F772004DACCB /* ViewController+MASAdditions.m */; };
 		447354921B3A18B3004DACCB /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4473548C1B39F772004DACCB /* ViewController+MASAdditions.m */; };
 		447354931B3A18B9004DACCB /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4473548B1B39F772004DACCB /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA1A64E11FEE79C900789B66 /* View+SafeAreaLayoutGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1A64DF1FEE79C800789B66 /* View+SafeAreaLayoutGuide.m */; };
+		EA1A64E21FEE79C900789B66 /* View+SafeAreaLayoutGuide.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1A64E01FEE79C900789B66 /* View+SafeAreaLayoutGuide.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +90,8 @@
 		3AED06271AD5A1400053CC65 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4473548B1B39F772004DACCB /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		4473548C1B39F772004DACCB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		EA1A64DF1FEE79C800789B66 /* View+SafeAreaLayoutGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+SafeAreaLayoutGuide.m"; sourceTree = "<group>"; };
+		EA1A64E01FEE79C900789B66 /* View+SafeAreaLayoutGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+SafeAreaLayoutGuide.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 				3AED05EF1AD5A0470053CC65 /* View+MASAdditions.h */,
 				3AED05F01AD5A0470053CC65 /* View+MASAdditions.m */,
 				3AED05F11AD5A0470053CC65 /* View+MASShorthandAdditions.h */,
+				EA1A64E01FEE79C900789B66 /* View+SafeAreaLayoutGuide.h */,
+				EA1A64DF1FEE79C800789B66 /* View+SafeAreaLayoutGuide.m */,
 				4473548B1B39F772004DACCB /* ViewController+MASAdditions.h */,
 				4473548C1B39F772004DACCB /* ViewController+MASAdditions.m */,
 				3AED05EA1AD5A0470053CC65 /* NSArray+MASAdditions.h */,
@@ -183,6 +189,7 @@
 				3AED06021AD5A0470053CC65 /* NSArray+MASShorthandAdditions.h in Headers */,
 				3AED05F71AD5A0470053CC65 /* MASConstraintMaker.h in Headers */,
 				3AED05FB1AD5A0470053CC65 /* MASUtilities.h in Headers */,
+				EA1A64E21FEE79C900789B66 /* View+SafeAreaLayoutGuide.h in Headers */,
 				3AED06001AD5A0470053CC65 /* NSArray+MASAdditions.h in Headers */,
 				3AED05F21AD5A0470053CC65 /* MASCompositeConstraint.h in Headers */,
 				3AED05F61AD5A0470053CC65 /* MASConstraint+Private.h in Headers */,
@@ -312,6 +319,7 @@
 				3AED05FA1AD5A0470053CC65 /* MASLayoutConstraint.m in Sources */,
 				3AED05F51AD5A0470053CC65 /* MASConstraint.m in Sources */,
 				3AED05FF1AD5A0470053CC65 /* MASViewConstraint.m in Sources */,
+				EA1A64E11FEE79C900789B66 /* View+SafeAreaLayoutGuide.m in Sources */,
 				3AED05F31AD5A0470053CC65 /* MASCompositeConstraint.m in Sources */,
 				3AED05F81AD5A0470053CC65 /* MASConstraintMaker.m in Sources */,
 				3AED06041AD5A0470053CC65 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
