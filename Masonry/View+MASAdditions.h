@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 cloudling. All rights reserved.
 //
 
-#import "MASUtilities.h"
-#import "MASConstraintMaker.h"
-#import "MASViewAttribute.h"
+#import <Masonry/MASUtilities.h>
+#import <Masonry/MASConstraintMaker.h>
+#import <Masonry/MASViewAttribute.h>
 
 /**
  *	Provides constraint maker block

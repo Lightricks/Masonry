@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 cloudling. All rights reserved.
 //
 
-#import "MASConstraint.h"
-#import "MASUtilities.h"
+#import <Masonry/MASConstraint.h>
+#import <Masonry/MASUtilities.h>
 
 typedef NS_OPTIONS(NSInteger, MASAttribute) {
     MASAttributeLeft = 1 << NSLayoutAttributeLeft,

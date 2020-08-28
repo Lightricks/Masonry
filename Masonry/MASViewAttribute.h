@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 cloudling. All rights reserved.
 //
 
-#import "MASUtilities.h"
+#import <Masonry/MASUtilities.h>
 
 /**
  *  An immutable tuple which stores the view and the related NSLayoutAttribute.

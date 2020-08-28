@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 cloudling. All rights reserved.
 //
 
-#import "MASConstraint.h"
-#import "MASUtilities.h"
+#import <Masonry/MASConstraint.h>
+#import <Masonry/MASUtilities.h>
 
 /**
  *	A group of MASConstraint objects

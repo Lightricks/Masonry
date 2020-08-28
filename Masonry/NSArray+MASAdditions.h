@@ -6,9 +6,9 @@
 //
 //
 
-#import "MASUtilities.h"
-#import "MASConstraintMaker.h"
-#import "MASViewAttribute.h"
+#import <Masonry/MASUtilities.h>
+#import <Masonry/MASConstraintMaker.h>
+#import <Masonry/MASViewAttribute.h>
 
 typedef NS_ENUM(NSUInteger, MASAxisType) {
     MASAxisTypeHorizontal,
