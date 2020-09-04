@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Jonas Budelmann. All rights reserved.
 //
 
-#import "MASUtilities.h"
+#import <Masonry/MASUtilities.h>
 
 /**
  *	makes debug and log output of NSLayoutConstraints more readable
